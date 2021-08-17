@@ -1,0 +1,2 @@
+<!-- formats .Content headings by adding an anchor -->
+{{ . | replaceRE "(</nav>)" "<svg xmlns=&quot;http://www.w3.org/2000/svg&quot;><path /> </svg></nav>" | safeHTML }}

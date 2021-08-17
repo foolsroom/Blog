@@ -1,0 +1,25 @@
+---
+title: "Devlog"
+date: 2021-08-16T15:31:12-04:00
+slug: ""
+description: ""
+keywords: []
+draft: false
+tags: ["game-dev", "devlog"]
+math: false
+toc: true
+---
+## Aug 16, 2021
+So I've been working on a game for the past few weeks. I wanted a place where I could put my thoughts and other things regarding it, so I've created this simple website. Well, I say simple, but I actually spent so long messing around with it and configuring random stuff. Anyways, it's very likely that there will only ever be a few people who ever see this. So if you're reading this, hello and welcome. This is just going to be a very informal place where I share my thoughts and progress on this game's development. I made this because I personally really like reading other game developers' thoughts and posts like these. So maybe someone out there might get something out of this.
+
+So today is Monday, August 16, 2021. I began working on this game on July 8, 2021, so it's been a little over a month since I began. The game idea is pretty lame. It's just a twin stick shooter roguelite game. There's no special mechanics or interesting gimmicks or anything that would make a player want to play my game over any of the other high quality twin stick shooters out there. I gave some thought into what sort of mechanics might be interesting and unique for this game, but couldn't really come up with anything decent. Maybe I'll keep trying to come up with something, but there's a high chance I won't change anything.
+
+The main goal for this game is primarily to just finish and release a project. That seems to be something indie developers say a lot. For me, I've worked on various smaller projects in the past. The maximum time I spent on a single game was probably a little over one month. None of them were really intended to be played by anyone other than my friends. But around a year ago, I decided I wanted to try and make a "real" commerical game. Since then, I've hopped from project to project, always overscoping, and never ending up actually making anything. My previous project before this one was going to be a tower defense kind of game which was going to be really small. But scope creep and overestimating my abilities came into play again, and I ended up scrapping it as well. As a result, I really don't want to throw away yet another project. I will do my best to see this project through to the finish, regardless of what I must do to achieve it. 
+
+I made a bet with a friend that I would release this game before October 30th. At this point in development, I am not sure whether or not that goal is totally feasible, but I will still try my best to finish by then. I don't have a ton of time to devote to development, but hopefully an hour or two a day will be enough over time. Anyways, let's talk about the game now.
+
+So far, I have most of the basic stuff implemented already: health, ammo, exp, some upgrades, and some enemies. I'm currently working on the first boss, which is literally just a giant circle. As a part of limiting the scope, I was going to make all of the enemies and the player just shapes. Then, I wouldn't have to spend a lot of time drawing or animating them. It turned out that the shapes were really boring, so I just gave them all faces, hoping that it would spice it up at least a little bit. I think it's a good addition that also doesn't take a bunch of effort.
+
+Anyways, I really have to think about the direction I want to take this game towards. Currently, it's pretty boring, and my defeatist mentality is telling me that nothing I will add will make it any better. Maybe it'll end up just being a boring mess. I guess we'll see in a couple months.
+
+I'll update this post every once in a while with progress updates and stuff like that. But I guess that's it for today.

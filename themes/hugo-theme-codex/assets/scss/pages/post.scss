@@ -1,0 +1,292 @@
+@import "../main";
+@import "../partials/github-syntax-highlighting";
+
+$tocBreakpoint: 1024px;
+
+/* Aligns ToC content */
+.flex-wrapper {
+  display: flex;
+}
+
+.post__container {
+  flex-grow: 1;
+  min-width: 0;
+}
+
+.post {
+  width: 100%;
+  max-width: 40rem;
+  margin: 0 auto;
+
+  h2,
+  h3 {
+    position: relative;
+    padding-top: 10px;
+
+    .anchor {
+      top: 0.5rem;
+      text-decoration: none;
+      position: absolute;
+      left: -1rem;
+      color: $grey;
+      font-size: 1.2rem;
+      font-weight: 400;
+    }
+
+    .anchor:hover {
+      color: $darkGrey;
+    }
+  }
+
+  blockquote {
+    width: 95%;
+    margin: 0 auto;
+    font-size: 1rem;
+
+    a {
+      color: $darkGrey;
+      text-decoration: underline;
+    }
+  }
+
+  img {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    display: block;
+  }
+}
+
+#post__title {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.post__date {
+  color: $grey;
+  font-size: 0.8rem;
+}
+
+.post__footer {
+  padding-top: 3rem;
+}
+
+.toc-container {
+  position: sticky;
+  align-self: start;
+  top: 3rem;
+  right:8rem;
+  max-width: 350px;
+
+  @media screen and (max-width: $tocBreakpoint) {
+    display: none;
+  }
+}
+
+.toc-post-title {
+  font-size: 0.9rem;
+  margin-bottom: 0.8rem;
+}
+
+#TableOfContents {
+  ul {
+    list-style: none;
+    margin: 0;
+  }
+
+  nav {
+    position: sticky;
+    left: 0;
+    top: var(--body-pad-top);
+    line-height: 2;
+  }
+
+  a {
+    display: inline-block;
+    color: $grey;
+    text-decoration: none;
+    transition: all 300ms ease-in-out;
+  }
+  
+  li > ul {
+    padding-left: 30px;
+  }
+    
+  li.visible > a {
+    color: rgb(255, 255, 255);
+    transform: translate(5px);
+  }
+  
+  svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  
+  path {
+    transition: all 300ms ease;
+    fill: transparent;
+    stroke: white;
+    stroke-width: 3px;
+    stroke-dasharray: 0 0 0 1000;
+    stroke-linecap: round;
+    stroke-linejoin: bevel;
+  }
+}
+
+.tags__list {
+  padding-right: 1.5rem;
+  margin: 1.5rem -1.5rem 0;
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.tag__item {
+  margin-right: 1rem;
+  display: inline-block;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.tag__link {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.1em 0.6em;
+  border-radius: 5px;
+  background: $grey;
+  color: $white;
+  font-size: 0.8rem;
+
+  &:hover {
+    background: lighten($grey, 38%);
+    color: black;
+  }
+}
+
+.gif {
+  margin-top: 1.5rem;
+
+  img {
+    max-width: 375px;
+  }
+}
+
+.pagination {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5rem;
+
+  @media screen and (min-width: 600px) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.pagination__item {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+
+  &:nth-child(2) {
+    margin-top: 1.5rem;
+  }
+
+  @media screen and (min-width: 600px) {
+    width: 275px;
+    padding: 15px;
+    border-radius: 4px;
+    &:first-of-type {
+      padding-right: 15px;
+    }
+    &:last-of-type {
+      margin-top: 0;
+    }
+    &:hover {
+      background-color: #f6f9fc;
+    }
+  }
+}
+
+.pagination__label {
+  color: $grey;
+  font-size: 0.8rem;
+}
+
+.pagination__title {
+  color: $black;
+  font-weight: 700;
+  margin-top: 0.25rem;
+}
+
+footer {
+  text-align: center;
+  padding: 0 1.5rem;
+  background: $white;
+
+  p {
+    margin-top: 1rem; // reduce margin top due to social icons' padding
+    color: $grey;
+    font-size: 0.65rem;
+  }
+}
+
+/* overrides */
+.post__content {
+  ul {
+    list-style: none;
+
+    li {
+      margin-bottom: 0.5rem;
+
+      &::before {
+        content: "-";
+        color: $darkGrey;
+        position: absolute;
+        margin-left: -15px;
+      }
+    }
+  }
+}
+
+.twitter-tweet.twitter-tweet-rendered {
+  margin: 1.5rem auto !important;
+  width: 375px !important;
+}
+
+table {
+  max-width: 100%;
+  border-spacing: 0;
+
+  thead {
+    background: $lightGrey;
+  }
+
+  th,
+  td {
+    padding: 0.5em 1em;
+    border: 1px double $greyTableBorder;
+  }
+}
+
+p {
+  a {
+    text-decoration: none;
+
+    &:link {
+      color: #00ccff;
+      text-decoration: underline;
+    }
+
+    &:visited {
+      color: #bb5df1;
+      text-decoration: underline;
+    }
+  }
+}
