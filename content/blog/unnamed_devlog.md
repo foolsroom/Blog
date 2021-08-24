@@ -23,3 +23,8 @@ So far, I have most of the basic stuff implemented already: health, ammo, exp, s
 Anyways, I really have to think about the direction I want to take this game towards. Currently, it's pretty boring, and my defeatist mentality is telling me that nothing I will add will make it any better. Maybe it'll end up just being a boring mess. I guess we'll see in a couple months.
 
 I'll update this post every once in a while with progress updates and stuff like that. But I guess that's it for today.
+
+## Aug 23, 2021
+It's been about a week since the previous update, so I guess I'll write another one. I haven't had as much time recently to work on the game, so progress isn't going too quickly. Anyways, I've been primarily working on the upgrades system and implementing individual uppgrades. The hope with the upgrade system is that it will provide interesting builds that people can try out in different runs that play differently. Whether or not that will actually happen is another story. At the very least, maybe they'll provide a little bit of thought and variation to runs.
+
+Sorry I don't have something more substantial, but that's pretty much all I have for this update. I guess I'll see you guys in another week or so. With hopefully some more progress and stuff to report on.
