@@ -44,3 +44,10 @@ So I have been working on more upgrade designs and implementations. Since the pr
 The resolution was to rework it into an upgrade system in which you can obtain multiple of the same upgrade, with stacking benefits. I feel this allowed me to create better and more balanced upgrade effects, and enabled a wider variety of upgrade types.
 
 Anyways, with this change came along a significant amount of work reworking and creating code for these systems. What is left now is just implementation of a bunch of different upgrade effects. That's probably what I'll be working on for a while. After that, it's probably time to add more content like enemy types.
+
+## December 3, 2021
+Progress has been going slower than expected as a result of various things happening in life. Over the past month or so, I've just been working on implementing some more upgrades. Here is a little video of what some of the upgrades looks like at the moment:
+
+{{<video src="https://i.imgur.com/Hzw3gbq.mp4">}}
+
+I'm going to keep working on this stuff for a while. This is taking a bit longer than expected.
