@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on foolsroom</title>
+    <link>https://blog-3ia.pages.dev/blog/</link>
+    <description>Recent content in Blogs on foolsroom</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© {year}</copyright>
+    <lastBuildDate>Mon, 16 Aug 2021 15:31:12 -0400</lastBuildDate><atom:link href="https://blog-3ia.pages.dev/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Devlog</title>
+      <link>https://blog-3ia.pages.dev/blog/unnamed_devlog/</link>
+      <pubDate>Mon, 16 Aug 2021 15:31:12 -0400</pubDate>
+      
+      <guid>https://blog-3ia.pages.dev/blog/unnamed_devlog/</guid>
+      <description>Aug 16, 2021So I&amp;rsquo;ve been working on a game for the past few weeks. I wanted a place where I could put my thoughts and other things regarding it, so I&amp;rsquo;ve created this simple website. Well, I say simple, but I actually spent so long messing around with it and configuring random stuff. Anyways, it&amp;rsquo;s very likely that there will only ever be a few people who ever see this.</description>
+    </item>
+    
+  </channel>
+</rss>

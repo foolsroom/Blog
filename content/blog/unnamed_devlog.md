@@ -51,3 +51,12 @@ Progress has been going slower than expected as a result of various things happe
 {{<video src="https://i.imgur.com/Hzw3gbq.mp4">}}
 
 I'm going to keep working on this stuff for a while. This is taking a bit longer than expected.
+
+## January 10, 2022
+I've been working on some more upgrades, as well as a new upgrade UI. I don't have an example of what the old one looked like, but here is what the new one looks like:
+
+{{<video src="https://i.imgur.com/M4uKSOT.mp4">}}
+
+I think it's a pretty good improvement over what I had before. It's still not perfect so I'll probably change it up more in the future.
+
+I've spent a significant amount of time working on upgrades so far, so I think it's about time to move onto other aspects of the game. I'll design some enemies next. I've made a few enemies a while back, but they're not great, so I want to try starting over. I still have ideas for more upgrades, but I'll put those on hold until I get some other parts worked on.
